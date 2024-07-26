@@ -36,17 +36,6 @@ var option = {
         show: false
       },
       axisLabel:{
-        formatter:function (value){
-            if (value >= '2024-03-04'){
-                return '{extra|' + value + '}';
-            }
-            return value;
-        },
-        rich:{
-            extra:{
-                padding:[0,10]
-            }
-        },
         // 更改x轴文字颜色的配置
         textStyle: {
           color: '#717782'
