@@ -8,9 +8,7 @@ var option = {
       text: '赛意求解器'
 
     },
-    textStyle:{
-        fontSize:20
-    },
+
     tooltip: {
       trigger: 'axis'
     },
